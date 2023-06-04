@@ -24,6 +24,7 @@ function cargarIconos() {
     ]
 }
 
+
 function generarTablero() {
     cargarIconos()
     selecciones = []
