@@ -18,6 +18,10 @@ function cargarIconos() {
         '<i class="fas fa-chess"></i>',
         '<i class="fas fa-dice-d20"></i>',
         '<i class="fa-solid fa-dragon"></i>',
+        '<i class="fa-solid fa-ghost"></i>',
+        '<i class="fa-solid fa-heart"></i>',
+        '<i class="fa-solid fa-heart"></i>',
+
     ]
 }
 
@@ -26,7 +30,7 @@ function generarTablero() {
     selecciones = []
     let tablero = document.getElementById("tablero")
     let tarjetas = []
-    for (let i = 0; i < 28; i++) {
+    for (let i = 0; i < 32; i++) {
         tarjetas.push(`
         <div class="area-tarjeta" onclick="seleccionarTarjeta(${i})">
             <div class="tarjeta" id="tarjeta${i}">
