@@ -20,7 +20,7 @@ function cargarIconos() {
         '<i class="fa-solid fa-dragon"></i>',
         '<i class="fa-solid fa-ghost"></i>',
         '<i class="fa-solid fa-heart"></i>',
-        '<i class="fa-solid fa-heart"></i>',
+        '<i class="fa-solid fa-alien-8bit"></i>',
 
     ]
 }
@@ -30,7 +30,7 @@ function generarTablero() {
     selecciones = []
     let tablero = document.getElementById("tablero")
     let tarjetas = []
-    for (let i = 0; i < 32; i++) {
+    for (let i = 0; i < 30; i++) {
         tarjetas.push(`
         <div class="area-tarjeta" onclick="seleccionarTarjeta(${i})">
             <div class="tarjeta" id="tarjeta${i}">
