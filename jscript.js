@@ -21,7 +21,6 @@ function cargarIconos() {
         '<i class="fa-solid fa-ghost"></i>',
         '<i class="fa-solid fa-heart"></i>',
         '<i class="fa-solid fa-alien-8bit"></i>',
-
     ]
 }
 
